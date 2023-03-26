@@ -1,0 +1,261 @@
+/* Tablet-Responsive -------------- */
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /* Header-section-styling ----------------------------*/
+
+  .header-section {
+    width: 90%;
+  }
+
+  .list-item {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+  }
+
+  .login {
+    padding: 8px 20px;
+  }
+
+  .sign-up {
+    padding: 8px 20px;
+  }
+
+  /* Hero-section-styling ----------------------------- */
+
+  .main-hero-container {
+    width: 90%;
+  }
+
+  .hero-section {
+    width: 90%;
+  }
+
+  /* Input-section-styling */
+
+  .input-section {
+    width: 90%;
+  }
+
+  .search-bar {
+    width: 55%;
+  }
+
+  /* mealitem-component-container styling */
+
+  .mealitem-component-container {
+    width: 90%;
+  }
+
+  /* mealitemIndex-section-styling */
+
+  .MealitemIndex-component-container {
+    width: 90%;
+  }
+
+  /* mealinfo-main-container-styling -------------- */
+
+  .mealinfo-main-container {
+    width: 90%;
+  }
+
+  .mealinfo-img {
+    width: 350px;
+  }
+
+  /* Footer-section-styling */
+
+  .footer-section {
+    width: 90%;
+  }
+}
+
+
+/* MOBILE-RESPONSIVE */
+
+@media only screen and (max-width:600px) {
+  /* Header-section-styling ----------------------------*/
+
+  .header-section {
+    width: 95%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .login {
+    margin-right: 15px;
+  }
+
+  .login:hover {
+    padding: 8px 20px;
+  }
+
+  .list-item {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+  }
+
+  .login {
+    padding: 8px 20px;
+  }
+
+  .sign-up {
+    padding: 7px 20px;
+  }
+
+  .sign-up:hover {
+    padding: 8px 20px;
+  }
+
+  /* Hero-section-styling ----------------------------- */
+
+  .main-hero-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .hero-section {
+    width: 100%;
+  }
+  
+  .header_h3 {
+    font-size: 12px;
+  }
+  
+  .hero_heading {
+    font-size: 30px;
+  }
+  
+  .hero_paragraph {
+    font-size: 12px;
+    line-height: 1.4rem;
+  }
+  
+  .hero_btn {
+    font-size: 12px;
+  }
+
+  /* Input-section-styling */
+
+  .input-section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .search-bar {
+    width: 95%;
+  }
+
+  .arrow-btn-section {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* mealitem-component-container styling */
+
+  .mealitem-component-container {
+    width: 95%;
+  }
+
+  .mealitem-component-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  /* Mealitem Card styling */
+  
+  .mealitem-section {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  /* mealitemIndex-section-styling */
+
+  .MealitemIndex-component-container {
+    width: 95%;
+  }
+
+  .MealitemIndex-alphabet {
+    margin: 15px 0px;
+  }
+
+  /* mealinfo-main-container-styling -------------- */
+
+  .mealinfo-main-container {
+    width: 95%;
+  }
+
+.mealinfo-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ca1e32;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.mealinfo-img {
+  width: 350px;
+  padding: 20px 25px 10px 15px;
+}
+
+.mealinfo-heading-section {
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.mealinfo-heading {
+  font-size: 30px;
+  
+}
+
+.mealinfo-list {
+  margin-top: 15px;
+  
+}
+
+.ingredient-heading {
+  margin: 50px 0px 20px 10px;
+}
+
+.ingredients {
+  margin: 0px 0px 10px 25px;
+}
+
+.instructio-heading {
+  margin: 50px 0px 20px 10px;
+}
+
+.instructions {
+  line-height: 2rem;
+  margin-left: 5px;
+}
+
+  
+  /* Footer-section-styling */
+
+  .main-footer-con {
+    width: 100%;
+    background-color: #ca1e32;
+    margin-top: 50px;
+  }
+  
+  .footer-section {
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+  }
+}
